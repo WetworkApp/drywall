@@ -20,6 +20,7 @@
     "windicss": "^3.5.3"
   },
   "dependencies": {
+    "@material-design-icons/svg": "^0.10.11",
     "socket.io-client": "^4.5.0",
     "solid-app-router": "^0.3.2",
     "solid-js": "^1.4.0"
