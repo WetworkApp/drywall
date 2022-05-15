@@ -19,6 +19,6 @@ export function setSetting(key: keyof SettingsStore, value: any) {
     window.localStorage.setItem("SettingsStore", JSON.stringify(window.SettingsStore));
 }
 
-export function getSetting(key: keyof SettingsStore) {
+export function getSetting(key: keyof SettingsStore): any {
     return window.SettingsStore[key];
 }
